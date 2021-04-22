@@ -6,4 +6,14 @@ module.exports = {
     path: path.resolve('dist'),
     filename: 'main.js',
   },
+  module: {
+    rules: [
+      {test: /\.js?$/, loader: 'babel-loader', exclude: /node_modules/},
+      {test: /\.css$/i, use: ['style-loader', 'css-loader']},
+      {
+        test: /\.svg$/i,
+        use: [{loader: 'file-loader', options: {esModule: false}}],
+      },
+    ],
+  },
 };
