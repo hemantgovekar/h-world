@@ -12,7 +12,6 @@ I am planning to create a video tutorial series for ReactJs. Would you be intere
 * Firebase application for CRUD.
 * Tomcat deployment for ReactJs.
 * Advance Topics....
- 
-
 
 [Subscribe my channel to watch the videos](https://www.youtube.com/channel/UCajNSAb41SHFYAsCJxUKIMw?sub_confirmation=1) :-)
+

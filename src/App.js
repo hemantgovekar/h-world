@@ -2,25 +2,20 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import Home from './components/Home';
 import Users from './components/Users';
+import './App.css';
+import Header from './components/Header/Header';
+import Contact from './components/Contact/Contact';
+import About from './components/About/About';
 
 const App = () => {
   return (
     <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/home">Home</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <Header />
       <Switch>
         <Route path="/home" component={Home} />
         <Route path="/users" component={Users} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/about" component={About} />
       </Switch>
     </Router>
   );
