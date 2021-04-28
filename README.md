@@ -5,7 +5,7 @@ I am planning to create a video tutorial series for ReactJs. Would you be intere
 
 * Create a basic app with webpack babel. (Done) [Link](https://youtu.be/zVWKtnEm4fk)
 * Add routing and get a simple react page ready.(Done) [Link](https://youtu.be/_EwvIVsccJs)
-* Adding Sass for css 
+* Adding Sass for css.(Done) [Link](https://www.youtube.com/watch?v=D_QgyC5wgJA)
 * UseFetch Hooks
 * Call jsonplaceholder API in the application.
 * Input form Validations in react application. 
