@@ -9,17 +9,20 @@ const Header = () => {
           Hemant's Website
         </NavLink>
       </div>
+
       <div className="nav-wrapper">
         <div className="navigation">
           <NavLink to="/about" activeClassName="activeClass">
             About
           </NavLink>
+
           <NavLink to="/contact" activeClassName="activeClass">
             Contact
           </NavLink>
           <NavLink to="/users" activeClassName="activeClass">
             Users
           </NavLink>
+
         </div>
       </div>
     </nav>
