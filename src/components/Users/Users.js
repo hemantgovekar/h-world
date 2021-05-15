@@ -1,7 +1,16 @@
 import React from 'react';
+import useFetch from '../../hooks/useFetch';
 
 const Users = () => {
-  return <div>Users Component</div>;
+  let url = 'https://jsonplaceholder.typicode.com/users';
+
+  const {data, isLoading} = useFetch(url);
+
+  return (
+    <div>
+      {!isLoading && data.map((u) => <div key={u.id}>{u.username}</div>)}
+    </div>
+  );
 };
 
 export default Users;

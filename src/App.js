@@ -7,6 +7,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Contact from './components/Contacts/Contact';
 import About from './components/About/About';
+import Posts from './components/Users/Posts';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Switch>
         <Route path="/home" component={Home} />
         <Route path="/users" component={Users} />
+        <Route path="/posts" component={Posts} />
         <Route path="/contact" component={Contact} />
         <Route path="/about" component={About} />
       </Switch>
